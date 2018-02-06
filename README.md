@@ -2,9 +2,9 @@
 
 ## Sequence diagrams
 
-[Source file](sequence-diagram.puml)
-
 ![Sequence diagram](https://github.com/phxql/plantuml-templates/raw/master/sequence-diagram.png)
+
+[Source file](sequence-diagram.puml)
 
 ## License
 
