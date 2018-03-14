@@ -6,6 +6,8 @@ autonumber
 hide footbox
 ' Only greyscale
 skinparam monochrome true
+' Disable shadows
+skinparam shadowing false
 
 participant "Box A" as A
 participant "Box B" as B

@@ -10,6 +10,8 @@ hide circles
 hide empty members
 ' Display packages as frame
 skinparam packageStyle frame
+' Disable shadows
+skinparam shadowing false
 
 abstract class AbstractA {
 	- field: String
