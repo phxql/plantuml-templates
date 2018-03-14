@@ -6,6 +6,12 @@
 
 [Source file](sequence-diagram.puml)
 
+## Class diagrams
+
+![Class diagram](https://github.com/phxql/plantuml-templates/raw/master/class-diagram.png)
+
+[Source file](class-diagram.puml)
+
 ## License
 
 [Apache License v2](https://www.apache.org/licenses/LICENSE-2.0)

@@ -1,0 +1,44 @@
+@startuml
+
+' Only greyscale
+skinparam monochrome true
+' Display UML icons (-, +, ~, #) instead of visibility icons
+skinparam classAttributeIconSize 0
+' Disable class / interface / ... icons
+hide circles
+' Hide empty boxes
+hide empty members
+' Display packages as frame
+skinparam packageStyle frame
+
+abstract class AbstractA {
+	- field: String
+	{static} - staticField: String
+	{static} + staticMethod(): String
+	{abstract} + abstractMethod()
+}
+
+interface InterfaceI {
+	
+}
+
+' Classes inside a package
+package de.mkammerer.plantuml {
+	class B {
+		+ foo()
+	}
+
+	class C {
+		~ bar()
+	}
+}
+
+class "Complicated class name" as D
+
+AbstractA <|-- B
+AbstractA <|-- C
+InterfaceI <|.. C
+
+C -() interface
+
+@enduml
