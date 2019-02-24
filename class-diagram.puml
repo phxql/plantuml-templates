@@ -7,7 +7,8 @@ skinparam classAttributeIconSize 0
 ' Disable class / interface / ... icons
 hide circles
 ' Hide empty boxes
-hide empty members
+hide empty fields
+hide empty methods
 ' Display packages as frame
 skinparam packageStyle frame
 ' Disable shadows
