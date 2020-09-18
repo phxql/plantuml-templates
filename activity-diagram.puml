@@ -12,15 +12,15 @@ start
 
 while(Parse result) is (success)
 
-if (case 1) then (yes)
-  :Action 1;
-elseif (case 2)
-  :Action 1;
-  :Action 2;
-elseif (case 3)  
-  :Action 1;
-  stop
-endif
+  if (case 1) then (yes)
+    :Action 1;
+  elseif (case 2)
+    :Action 1;
+    :Action 2;
+  elseif (case 3)  
+    :Action 1;
+    stop
+  endif
 
 endwhile(failure)
 
