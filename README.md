@@ -12,6 +12,12 @@
 
 [Source file](class-diagram.puml)
 
+## Activity diagrams
+
+![Activity diagram](https://github.com/phxql/plantuml-templates/raw/master/activity-diagram.png)
+
+[Source file](activity-diagram.puml)
+
 ## License
 
 [Apache License v2](https://www.apache.org/licenses/LICENSE-2.0)
